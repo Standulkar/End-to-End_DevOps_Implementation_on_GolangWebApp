@@ -1,0 +1,31 @@
+DevOps Implementation on the go web application
+The main goal of this project is to implement End-to-End DevOps practices in the Go web application.
+
+🚀 DevOps Implementation
+
+1. Source Code Setup
+Cloned the repository and verified project structure and dependencies.
+
+2. Application Execution
+Built and ran the application locally to ensure baseline functionality before DevOps integration.
+
+3. Containerization
+Created a Dockerfile and containerized the application using Docker to ensure consistency across environments.
+
+4. Kubernetes Manifests
+Structured deployment configuration by creating a k8s/manifests directory for Kubernetes resources.
+
+5. Cluster Provisioning
+Provisioned a managed Kubernetes cluster using Amazon EKS for scalable container orchestration.
+
+6. Ingress Configuration
+Configured Ingress controller to enable external access and route traffic to services داخل the cluster.
+
+7. Helm Integration
+Created Helm charts using Helm for simplified and reusable Kubernetes deployments.
+
+8. CI Pipeline (GitHub Actions)
+Implemented Continuous Integration using GitHub Actions to automate build and container image creation.
+
+9. CD Pipeline (GitOps with ArgoCD)
+Enabled Continuous Deployment using Argo CD for automated, declarative application delivery.
